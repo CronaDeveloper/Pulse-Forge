@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PulseForge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-aura"></div>
+  <header class="site-header">
+    <div class="brand">
+      <h1>PulseForge</h1>
+      <p>Live project status, updates, and dev notes</p>
+    </div>
+    <nav class="top-nav">
+      <a href="#status">Status</a>
+      <a href="#updates">Updates</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#links">Links</a>
+      <a href="#notes">Notes</a>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section id="status" class="panel">
+      <div class="panel-head">
+        <h2>Status Overview</h2>
+        <span id="last-build" class="pill"></span>
+      </div>
+      <div id="status-grid" class="status-grid"></div>
+    </section>
+
+    <section id="updates" class="panel">
+      <div class="panel-head">
+        <h2>Update Feed</h2>
+        <span id="last-push" class="soft"></span>
+      </div>
+      <div id="updates-list" class="stack"></div>
+    </section>
+
+    <section id="roadmap" class="panel">
+      <div class="panel-head">
+        <h2>Roadmap</h2>
+        <span class="soft">Things I'm working on</span>
+      </div>
+      <div id="roadmap-grid" class="roadmap-grid"></div>
+    </section>
+
+    <section class="panel split">
+      <div id="issues" class="subpanel">
+        <h3>Known Issues</h3>
+        <ul id="issues-list"></ul>
+      </div>
+      <div id="notes" class="subpanel">
+        <h3>Developer Notes</h3>
+        <div id="notes-content"></div>
+      </div>
+    </section>
+
+    <section id="links" class="panel">
+      <div class="panel-head">
+        <h2>Important Links</h2>
+        <span class="soft">Quick access</span>
+      </div>
+      <div id="links-grid" class="links-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Built by CronaDeveloper</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

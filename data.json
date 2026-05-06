@@ -1,0 +1,64 @@
+﻿{
+  "meta": {
+    "latestBuild": "v0.1.4",
+    "lastPushedUpdate": "May 6, 2026"
+  },
+  "statusCards": [
+    { "name": "Game Status", "value": "Online", "indicator": "green" },
+    { "name": "Servers", "value": "Stable", "indicator": "green" },
+    { "name": "Data Saving", "value": "Operational", "indicator": "green" },
+    { "name": "Matchmaking", "value": "Normal", "indicator": "green" },
+    { "name": "Latest Build", "value": "v0.1.4", "indicator": "yellow" }
+  ],
+  "updates": [
+    {
+      "version": "v0.1.4",
+      "items": [
+        "Improved UI responsiveness in the main cards.",
+        "Fixed a few small mobile layout bugs.",
+        "Added better status indicator contrast.",
+        "Updated roadmap structure for easier scanning."
+      ]
+    },
+    {
+      "version": "v0.1.3",
+      "items": [
+        "Added public links section.",
+        "Improved dashboard hover animations.",
+        "Created first GitHub Pages deployment workflow."
+      ]
+    }
+  ],
+  "roadmap": {
+    "planned": [
+      "Add automatic status from an API.",
+      "Add maintenance countdown.",
+      "Add Discord announcement sync."
+    ],
+    "inProgress": [
+      "Better mobile spacing.",
+      "Cleaner update cards."
+    ],
+    "done": [
+      "Static dashboard.",
+      "Changelog system.",
+      "GitHub Pages deployment."
+    ]
+  },
+  "knownIssues": [
+    "Some status values are still manually edited.",
+    "Mobile spacing may change in future versions.",
+    "API integration is not available yet."
+  ],
+  "devNotes": [
+    "Built this as a simple public hub for my projects. The first version is static, but the goal is to turn it into a real status dashboard later.",
+    "I wanted one page where players can quickly check what changed and what is being worked on."
+  ],
+  "links": [
+    { "name": "Play Game", "url": "#" },
+    { "name": "Discord", "url": "#" },
+    { "name": "GitHub", "url": "#" },
+    { "name": "Report Bug", "url": "#" },
+    { "name": "Appeal Ban", "url": "#" }
+  ]
+}
