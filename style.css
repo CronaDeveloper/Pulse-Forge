@@ -120,6 +120,65 @@ body {
   padding: 0.25rem 0.65rem;
 }
 
+.auth-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
+
+.auth-form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.auth-form h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.auth-form input,
+.editor {
+  background: rgba(8, 13, 24, 0.86);
+  color: var(--text);
+  border: 1px solid rgba(124, 139, 196, 0.32);
+  border-radius: 10px;
+  padding: 0.64rem 0.72rem;
+  font: inherit;
+}
+
+.auth-form button,
+#save-content-btn,
+.ghost {
+  border: 1px solid rgba(124, 139, 196, 0.45);
+  color: var(--text);
+  background: linear-gradient(120deg, rgba(92, 136, 255, 0.22), rgba(130, 87, 255, 0.22));
+  border-radius: 10px;
+  padding: 0.58rem 0.72rem;
+  font: inherit;
+  cursor: pointer;
+}
+
+.ghost {
+  background: rgba(10, 16, 31, 0.9);
+}
+
+.auth-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 0.75rem;
+}
+
+.editor {
+  min-height: 340px;
+  width: 100%;
+  resize: vertical;
+}
+
+.hidden {
+  display: none;
+}
+
 .status-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -257,7 +316,8 @@ body {
   }
 
   .roadmap-grid,
-  .links-grid {
+  .links-grid,
+  .auth-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -271,7 +331,8 @@ body {
   .status-grid,
   .roadmap-grid,
   .links-grid,
-  .split {
+  .split,
+  .auth-grid {
     grid-template-columns: 1fr;
   }
 }
